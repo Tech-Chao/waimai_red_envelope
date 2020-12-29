@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "外卖小包",
+    "navigationBarBackgroundColor": "#50B4EB",
+    "backgroundColor": "#FFFFFF",
+    "titleView": false
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap82.json"
+}

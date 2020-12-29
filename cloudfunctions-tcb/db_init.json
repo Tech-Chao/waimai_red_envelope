@@ -1,0 +1,158 @@
+{
+	"ActivityTable": {
+		"data": [{
+				"_id": "b1a52c595fc5ae7800b554f91316687c",
+				"bannerPic": "/static/coupon/meituan_discount.jpg",
+				"enable": true,
+				"icon": "/static/coupon/meituan.png",
+				"menuId": 2,
+				"minapp": {
+					"path": "/index/pages/h5/h5?weburl=https%3A%2F%2Frunion.meituan.com%2Furl%3Fkey%3Da144a9fa40a42c55af00214bb4bb3993971%26url%3Dhttps%253A%252F%252Fi.meituan.com%252Fawp%252Fhfe%252Fblock%252Fa13b87919a9ace9cfab4%252F89400%252Findex.html%253Fappkey%253Da144a9fa40a42c55af00214bb4bb3993971%253A5964dingdanxiafychao911003%26sid%3D5964dingdanxiafychao911003",
+					"appid": "wxde8ac0a21135c07d"
+				},
+				"name": "美团每日券"
+			},
+			{
+				"_id": "6127fe145fd1c269013d13723bcde1d0",
+				"enable": true,
+				"icon": "/static/coupon/ele.png",
+				"menuId": 1,
+				"minapp": {
+					"appid": "wxece3a9a4c82f58c9",
+					"path": "taoke/pages/shopping-guide/index?scene=RfaoMtu"
+				},
+				"name": "饿了么双12券",
+				"bannerPic": "/static/coupon/ele_12.jpg"
+			},
+			{
+				"_id": "0288fce75fc4bd9a007b11e866b16740",
+				"name": "饿了么每日券",
+				"bannerPic": "/static/coupon/ele_banner.png",
+				"enable": true,
+				"icon": "/static/coupon/ele.png",
+				"menuId": 1,
+				"minapp": {
+					"appid": "wxece3a9a4c82f58c9",
+					"path": "pages/sharePid/web/index?scene=s.click.ele.me%2FsVevltu"
+				}
+			},
+			{
+				"_id": "0a4429175fc5ae61008a51ff1264ee8c",
+				"name": "饿了么大红包",
+				"bannerPic": "/static/coupon/ele_market.jpg",
+				"icon": "/static/coupon/ele.png",
+				"menuId": 1,
+				"minapp": {
+					"appid": "wxece3a9a4c82f58c9",
+					"path": "ele-recommend-price/pages/guest/index?inviter=196f15ca"
+				}
+			},
+			{
+				"_id": "b1a52c595fc5ae8800b555a2275d1ed5",
+				"menuId": 3,
+				"minapp": {
+					"appid": "wxece3a9a4c82f58c9",
+					"path": "pages/sharePid/web/index?scene=s.click.ele.me%2FQmJvltu"
+				},
+				"name": "饿了么果蔬",
+				"bannerPic": "/static/coupon/ele_market.jpg",
+				"enable": true,
+				"icon": "/static/coupon/ele.png"
+			},
+			{
+				"_id": "0bcbdde05fc5ae8f007c48ae2bbeea06",
+				"name": "美团商超生鲜",
+				"bannerPic": "/static/coupon/meituan_martket.jpg",
+				"icon": "/static/coupon/meituan.png",
+				"menuId": 3,
+				"minapp": {
+					"appid": "wxde8ac0a21135c07d",
+					"path": "/index/pages/h5/h5?weburl=https%3A%2F%2Frunion.meituan.com%2Furl%3Fkey%3Da144a9fa40a42c55af00214bb4bb3993971%26url%3Dhttps%253A%252F%252Fi.meituan.com%252Fawp%252Fhfe%252Fblock%252Fc9ff59b58f6f5bf385b6%252F94455%252Findex.html%253Fappkey%253Da144a9fa40a42c55af00214bb4bb3993971%253A5964dingdanxiafychao911004%26sid%3D5964dingdanxiafychao911004"
+				}
+			},
+			{
+				"_id": "c89bd61c5fc608dc00847a17384a06c2",
+				"icon": "/static/coupon/meituan.png",
+				"menuId": 2,
+				"minapp": {
+					"appid": "wxde8ac0a21135c07d",
+					"path": "index/pages/h5/h5?weburl=https%3a%2f%2fact.meituan.com%2fclover%2fpage%2fadunioncps%2fcoupon_shop%3futmSource%3d43797%26utmMedium%3d4ADFED2F8AE493FA9AA8F4771FDF24F4%26activity%3d0AlN4OtEIa"
+				},
+				"name": "美团线下团购",
+				"bannerPic": "/static/coupon/meituan_offline.jpg"
+			}
+		],
+		"index": [{
+			"IndexName": "ActivityTable_openid_index_",
+			"MgoKeySchema": {
+				"MgoIndexKeys": [{
+					"Name": "_openid",
+					"Direction": "1"
+				}],
+				"MgoIsUnique": false
+			}
+		}],
+		"schema": {
+			"bsonType": "object",
+			"required": [],
+			"permission": {
+				"read": false,
+				"create": false,
+				"update": false,
+				"delete": false
+			},
+			"properties": {
+				"_id": {
+					"description": "ID，系统自动生成"
+				},
+				"title": "饿了么红包",
+				"icon": "/static/coupon/ele.png",
+				"bannerPic": "/static/coupon/ele_banner.png",
+				"tabId": 1,
+				"enable": true,
+				"minapp": {
+					"appid": "wxece3a9a4c82f58c9",
+					"path": "pages/sharePid/web/index?scene=s.click.ele.me%2FsVevltu"
+				}
+			}
+		}
+	},
+	"CouponMenuTable": {
+		"data": [{
+				"_id": "2a7b532a5fc5055a00955b185c7b3cde",
+				"icon": "/static/all.png",
+				"menuId": 0,
+				"text": "全部"
+			},
+			{
+				"_id": "0288fce75fc506ce007f2b9218d7df11",
+				"icon": "/static/ele.png",
+				"menuId": 1,
+				"text": "饿了么"
+			},
+			{
+				"_id": "b1a52c595fc506d800afc2185a68e00d",
+				"icon": "/static/meituan.png",
+				"menuId": 2,
+				"text": "美团"
+			},
+			{
+				"_id": "2a7b532a5fce33350107b58446c47445",
+				"icon": "/static/chaoshi.png",
+				"menuId": 3,
+				"text": "超市"
+			}
+		],
+		"index": [{
+			"IndexName": "CouponMenuTable_openid_index_",
+			"MgoKeySchema": {
+				"MgoIndexKeys": [{
+					"Name": "_openid",
+					"Direction": "1"
+				}],
+				"MgoIsUnique": false
+			}
+		}]
+	},
+	"SubscribeMessageTable": {}
+}

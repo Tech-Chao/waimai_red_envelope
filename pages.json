@@ -1,0 +1,15 @@
+{
+	"pages": [{
+		"path": "pages/index/index"
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "外卖小包",
+		"navigationBarBackgroundColor": "#50B4EB",
+		"backgroundColor": "#FFFFFF",
+		"titleView": false,
+		"h5": {
+			"titleNView": false
+		}
+	}
+}
