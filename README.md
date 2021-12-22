@@ -83,6 +83,13 @@ minapp: {
 
 在uni-cloud 中除了云函数、云数据库还有云储存，将你要替换的图片上传到云储存中，然后点击「详情」获取图片的url，再替换掉在云数据库中的bannerPic、icon字段。
 
+## 广告
+淘宝、京东、拼多多高返利微信机器人
+
+微信添加好友，发送购物链接享受购物返利。
+
+![](https://github.com/Tech-Chao/waimai_red_envelope/blob/main/static/44_658_f70762d87825aed21e8c949bcaca7e38_886f92949a6b650d3a471a23abe19781.png?raw=true)
+
 ## 参考
 
 [zwpro/coupons](https://github.com/zwpro/coupons)
